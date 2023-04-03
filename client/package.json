@@ -14,6 +14,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "eslint-config-prettier": "^8.8.0",
@@ -23,8 +24,10 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-tailwindcss": "^3.10.3",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-astro": "^0.8.0",
-    "prettier-plugin-sort-json": "^1.0.0"
+    "prettier-plugin-sort-json": "^1.0.0",
+    "tailwindcss": "^3.3.1"
   }
 }
