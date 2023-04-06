@@ -61,5 +61,9 @@
       }
     ],
     "unused-imports/no-unused-imports": "error"
-  }
+  },
+  "ignorePatterns": [
+    "/lib/**/*", // Ignore built files.
+    "**/*.js"
+  ]
 }
