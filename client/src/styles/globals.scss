@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+// 全体にフォント'm-plus-2p'を適用
+body {
+    font-family: 'm-plus-2p', sans-serif;
+    font-weight: 500;
+}
