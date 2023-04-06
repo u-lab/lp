@@ -1,6 +1,13 @@
-import { Inter } from 'next/font/google';
+import { type GetStaticProps } from 'next';
 
-const inter = Inter({ subsets: ['latin'] });
+export const getStaticProps: GetStaticProps = async () => {
+    return {
+        redirect: {
+            destination: 'https://twitter.com/Ulab_uu',
+            permanent: false,
+        },
+    };
+};
 
 export default function Home() {
     return <>redirecting...</>;
