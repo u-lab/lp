@@ -29,6 +29,8 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-tailwindcss": "^3.10.3",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-export-optimize-images": "^2.0.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-astro": "^0.8.0",

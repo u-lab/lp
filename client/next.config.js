@@ -4,4 +4,7 @@ const nextConfig = {
     swcMinify: true,
 };
 
-module.exports = nextConfig;
+const withPlugins = require('next-compose-plugins');
+const withExportImages = require('next-export-optimize-images');
+
+module.exports = withPlugins([withExportImages], nextConfig);
