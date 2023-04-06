@@ -5,6 +5,9 @@ https://ulab-uu.com/
 ## 開発
 
 ```shell
+# 最初にやること
+$ make init
+
 # 開発サーバーを立ち上げる
 $ make dev
 
