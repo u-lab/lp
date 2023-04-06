@@ -1,10 +1,11 @@
 {
-  "name": "app",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,6 +17,8 @@
   "devDependencies": {
     "@types/node": "18.15.11",
     "@types/react": "18.0.32",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
     "autoprefixer": "^10.4.14",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
@@ -26,6 +29,8 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-tailwindcss": "^3.10.3",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-export-optimize-images": "^2.0.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-astro": "^0.8.0",
