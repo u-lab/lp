@@ -19,7 +19,7 @@ export default function Home() {
                         ご連絡はこちらの <a className='text-ulab underline hover:opacity-80' href="mailto:ulab0812@gmail.com">メール</a>{" "}
                         までお願いいたします。
                     </p>
-                    <img src="./U-lab_uu.jpg" style={{ display: "inline-block", maxWidth: "80%" }} alt='宇都宮大学U-lab' />
+                    <img src="./U-lab_uu.jpg" style={{ display: "inline-block", maxWidth: "80%", width: "600px", }} alt='宇都宮大学U-lab' />
                 </div>
             </main>
         </>
